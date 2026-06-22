@@ -2,9 +2,7 @@
 
 A unified research codebase for benchmarking  **Nonnegative Matrix Factorization (NMF)** ,  **deep NMF** ,  **multilayer NMF** ,  **hierarchical rank‑2 NMF** ,  **semi‑supervised NMF** , and **min‑volume deep NMF** on high‑dimensional materials datasets.
 
-This repository accompanies the experiments in the paper and provides a fully reproducible pipeline from:
-
-**NMF → latent factors → supervised learning → interpretability → robustness analysis**
+This repository accompanies the experiments in the paper and provides a fully reproducible pipeline.
 
 ## **📦 Repository Structure**
 
@@ -85,7 +83,7 @@ All scripts rely on the unified runner framework in `src/runner/`.
 
 ## **🧠 Core Concepts**
 
-* **Shallow NMF** (NumPy): interpretable additive latent factors
+* **Standard NMF** (NumPy): interpretable additive latent factors
 * **Multilayer NMF** : sequential refinement
 * **Deep NMF** : jointly optimized hierarchical structure
 * **Min‑volume deep NMF** : identifiable, stable chemical motifs
@@ -93,15 +91,6 @@ All scripts rely on the unified runner framework in `src/runner/`.
 * **Interpretability** : SHAP, element attribution, hierarchical mapping
 * **Robustness** : noise‑perturbation analysis across seeds, ranks, noise levels
 
-## **📄 Reproducibility**
-
-All experiments use:
-
-* Fixed train/test split
-* Fixed random seeds
-* Rank sweeps (20–70)
-* Consistent normalization
-* Identical protocols for deep NMF and min‑volume deep NMF
 
 ## **🔗 Codebase**
 
