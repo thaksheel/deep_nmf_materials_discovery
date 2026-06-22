@@ -15,7 +15,6 @@ text
 ├── src/
 │   ├── core/                     # Core utilities and shared infrastructure
 │   │   ├── finetune/             # Fine‑tuning utilities for NMF models
-│   │   ├── sensitivity/          # Robustness & noise‑perturbation analysis
 │   │   ├── utils/                # Logging, normalization, helpers
 │   │   ├── init/                 # NMF initialization schemes
 │   │   └── algorithms/           # NMF algorithm selection & wrappers
