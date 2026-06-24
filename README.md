@@ -125,7 +125,7 @@ The command line interface also accepts `minvol` as a convenience model label.
 The primary installation method is `pip install .`.
 
 ```bash
-git clone git@github.com:thaksheel/nimd.git
+git clone https://github.com/thaksheel/nimd.git
 cd deep_nmf_materials_discovery
 
 python3 -m venv .venv
